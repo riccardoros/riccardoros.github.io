@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Resume v6.0.2 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2020 Start Bootstrap
+* Copyright 2013-2021 [object Object]
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
 */
 /*!
@@ -10013,6 +10013,19 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+}
+
+p.text-achivements {
+  padding-left: 1rem;
+  position: relative;
+}
+p.text-achivements:before {
+  content: "";
+  position: absolute;
+  width: 0.5rem;
+  height: 100%;
+  background-color: #bd5d38;
+  left: 0;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
